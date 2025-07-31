@@ -15,22 +15,14 @@
 # pylint: disable=g-importing-member
 """Tools for understanding JAX + Haiku programs."""
 
-from haiku._src.jaxpr_info import as_html
-from haiku._src.jaxpr_info import as_html_page
-from haiku._src.jaxpr_info import css
-from haiku._src.jaxpr_info import Expression
-from haiku._src.jaxpr_info import format_module
-from haiku._src.jaxpr_info import js
-from haiku._src.jaxpr_info import make_model_info
-from haiku._src.jaxpr_info import Module
+# Removed all imports of jaxpr_info (incompatible with jax>=0.4.23)
+# from haiku._src.jaxpr_info import as_html
+# from haiku._src.jaxpr_info import as_html_page
+# from haiku._src.jaxpr_info import css
+# from haiku._src.jaxpr_info import Expression
+# from haiku._src.jaxpr_info import format_module
+# from haiku._src.jaxpr_info import js
+# from haiku._src.jaxpr_info import make_model_info
+# from haiku._src.jaxpr_info import Module
 
-__all__ = (
-    "as_html",
-    "as_html_page",
-    "css",
-    "Expression",
-    "format_module",
-    "js",
-    "make_model_info",
-    "Module",
-)
+__all__ = ()
